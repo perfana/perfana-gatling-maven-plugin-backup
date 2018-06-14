@@ -1,0 +1,1496 @@
+Apache Maven 3.3.9
+Maven home: /usr/share/maven
+Java version: 1.8.0_131, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "4.10.0-38-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven/conf/settings.xml
+[DEBUG] Reading user settings from /root/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /root/.m2/toolchains.xml
+[DEBUG] Using local repository at /root/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /root/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for releases (https://nexus.ecom.ahold.nl/content/repositories/releases).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for snapshots (https://nexus.ecom.ahold.nl/content/repositories/snapshots).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1: (none)
+[DEBUG] Looking up lifecyle mappings for packaging maven-plugin from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.sonatype.oss:oss-parent:pom:9: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin com.mycila.maven-license-plugin:maven-license-plugin @ line 163, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[DEBUG] Tasks:   [deploy]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building perfana-gatling-maven-plugin 0.0.1
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for plexus-snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       qa.perfana:perfana-gatling-maven-plugin:0.0.1
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [default (https://nexus.ecom.ahold.nl/content/groups/public, default, releases+snapshots)]
+[DEBUG] Repositories (plugins)     : [default (https://nexus.ecom.ahold.nl/content/groups/public, default, releases+snapshots)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <rules>
+    <requireMavenVersion>
+      <version>(,2.1.0),(2.1.0,2.2.0),(2.2.0,)</version>
+      <message>Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.</message>
+    </requireMavenVersion>
+  </rules>
+  <skip default-value="false">${enforcer.skip}</skip>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-plugin-plugin:3.4:helpmojo (help-goal)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <dependencies default-value="${project.artifacts}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <local default-value="${localRepository}"/>
+  <outputDirectory default-value="${project.build.directory}/generated-sources/plugin"/>
+  <project default-value="${project}"/>
+  <remoteRepos default-value="${project.remoteArtifactRepositories}"/>
+  <skip default-value="false">${maven.plugin.skip}</skip>
+  <skipErrorNoDescriptorsFound default-value="false">true</skipErrorNoDescriptorsFound>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor (default-descriptor)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <dependencies default-value="${project.artifacts}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <local default-value="${localRepository}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}/META-INF/maven"/>
+  <project default-value="${project}"/>
+  <remoteRepos default-value="${project.remoteArtifactRepositories}"/>
+  <skip default-value="false">${maven.plugin.skip}</skip>
+  <skipDescriptor default-value="false"/>
+  <skipErrorNoDescriptorsFound default-value="false">true</skipErrorNoDescriptorsFound>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor (mojo-descriptor)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <dependencies default-value="${project.artifacts}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <local default-value="${localRepository}"/>
+  <outputDirectory default-value="${project.build.outputDirectory}/META-INF/maven"/>
+  <project default-value="${project}"/>
+  <remoteRepos default-value="${project.remoteArtifactRepositories}"/>
+  <skip default-value="false">${maven.plugin.skip}</skip>
+  <skipDescriptor default-value="false"/>
+  <skipErrorNoDescriptorsFound default-value="false">true</skipErrorNoDescriptorsFound>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-plugin-plugin:3.4:addPluginArtifactMetadata (default-addPluginArtifactMetadata)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project default-value="${project}"/>
+  <skip default-value="false">${maven.plugin.skip}</skip>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <altDeploymentRepository>${altDeploymentRepository}</altDeploymentRepository>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <localRepository default-value="${localRepository}"/>
+  <offline default-value="${settings.offline}"/>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <retryFailedDeploymentCount default-value="1">${retryFailedDeploymentCount}</retryFailedDeploymentCount>
+  <skip default-value="false">${maven.deploy.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=72, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=6, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=145, DefaultDependencyCollector.transformTime=10}
+[DEBUG] qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[DEBUG]    org.apache.commons:commons-exec:jar:1.2:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:provided
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.0:provided
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]          org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[DEBUG]    com.squareup.okhttp3:okhttp:jar:3.8.1:compile
+[DEBUG]       com.squareup.okio:okio:jar:1.13.0:compile
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ perfana-gatling-maven-plugin ---
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for apache.snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for snapshots (http://snapshots.maven.codehaus.org/maven2).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for central (http://repo1.maven.org/maven2).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for apache-snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for codehaus-snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=91, DefaultDependencyCollector.collectTime=104, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.2:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.2:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.2:compile
+[DEBUG]          org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:test
+[DEBUG]             org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:test
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.2
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.2
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (s) version = (,2.1.0),(2.1.0,2.2.0),(2.2.0,)
+[DEBUG]   (f) message = Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireMavenVersion@241a53ef]
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.3.9
+[DEBUG] Detected Maven Version: 3.3.9 is allowed in the range (,2.1.0),(2.1.0,2.2.0),(2.2.0,).
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.4:helpmojo (help-goal) @ perfana-gatling-maven-plugin ---
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for codehaus-snapshots (http://nexus.codehaus.org/snapshots/).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for apache.snapshots (http://people.apache.org/maven-snapshot-repository).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=255, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=69, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=178, DefaultDependencyCollector.collectTime=271, DefaultDependencyCollector.transformTime=8}
+[DEBUG] org.apache.maven.plugins:maven-plugin-plugin:jar:3.4:
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.4:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.4:compile
+[DEBUG]       org.ow2.asm:asm:jar:5.0.2:compile
+[DEBUG]       org.ow2.asm:asm-commons:jar:5.0.2:compile
+[DEBUG]          org.ow2.asm:asm-tree:jar:5.0.2:compile
+[DEBUG]       net.sf.jtidy:jtidy:jar:r938:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-java:jar:3.4:runtime
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M3:runtime
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-tools-annotations:jar:3.4:runtime
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4:runtime
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.1.1:runtime
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.0.3:runtime
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.4:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.4:compile
+[DEBUG]          xerces:xercesImpl:jar:2.9.1:compile
+[DEBUG]             xml-apis:xml-apis:jar:1.3.04:compile
+[DEBUG]          org.apache.httpcomponents:httpclient:jar:4.0.2:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.3:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.0.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.4:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.apache.velocity:velocity-tools:jar:2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.8:compile
+[DEBUG]          commons-chain:commons-chain:jar:1.1:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.1:compile
+[DEBUG]             javax.servlet:servlet-api:jar:2.3:compile
+[DEBUG]          dom4j:dom4j:jar:1.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]          sslext:sslext:jar:1.2-0:compile
+[DEBUG]          org.apache.struts:struts-core:jar:1.3.8:compile
+[DEBUG]             antlr:antlr:jar:2.7.2:compile
+[DEBUG]          org.apache.struts:struts-taglib:jar:1.3.8:compile
+[DEBUG]          org.apache.struts:struts-tiles:jar:1.3.8:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.3:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.6:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.3.1:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.20:compile
+[DEBUG]    org.codehaus.plexus:plexus-velocity:jar:1.1.8:compile
+[DEBUG]    org.apache.velocity:velocity:jar:1.7:compile
+[DEBUG]       commons-lang:commons-lang:jar:2.4:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-plugin-plugin:jar:3.4
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-api:jar:3.4
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-generators:jar:3.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:5.0.2
+[DEBUG]   Included: org.ow2.asm:asm-commons:jar:5.0.2
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:5.0.2
+[DEBUG]   Included: net.sf.jtidy:jtidy:jar:r938
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-java:jar:3.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M3
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-tools-annotations:jar:3.4
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.3
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.4
+[DEBUG]   Included: xerces:xercesImpl:jar:2.9.1
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.3.04
+[DEBUG]   Included: org.apache.httpcomponents:httpclient:jar:4.0.2
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.3
+[DEBUG]   Included: org.apache.httpcomponents:httpcore:jar:4.0.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.apache.velocity:velocity-tools:jar:2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.8
+[DEBUG]   Included: commons-chain:commons-chain:jar:1.1
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.1
+[DEBUG]   Included: javax.servlet:servlet-api:jar:2.3
+[DEBUG]   Included: dom4j:dom4j:jar:1.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: sslext:sslext:jar:1.2-0
+[DEBUG]   Included: org.apache.struts:struts-core:jar:1.3.8
+[DEBUG]   Included: antlr:antlr:jar:2.7.2
+[DEBUG]   Included: org.apache.struts:struts-taglib:jar:1.3.8
+[DEBUG]   Included: org.apache.struts:struts-tiles:jar:1.3.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.3
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.6
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.3.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.20
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.8
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.7
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-plugin-plugin:3.4:helpmojo from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[DEBUG] Setting property: site.resource.loader.class => 'org.codehaus.plexus.velocity.SiteResourceLoader'.
+[DEBUG] Setting property: velocimacro.messages.on => 'false'.
+[DEBUG] Setting property: resource.loader => 'classpath,site'.
+[DEBUG] Setting property: runtime.log.invalid.references => 'false'.
+[DEBUG] Setting property: resource.manager.logwhenfound => 'false'.
+[DEBUG] Initializing Velocity, Calling init()...
+[DEBUG] *******************************************************************
+[DEBUG] Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+[DEBUG] RuntimeInstance initializing.
+[DEBUG] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+[DEBUG] LogSystem has been deprecated. Please use a LogChute implementation.
+[DEBUG] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader
+[DEBUG] ResourceLoader instantiated: org.codehaus.plexus.velocity.SiteResourceLoader
+[DEBUG] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+[DEBUG] Default ResourceManager initialization complete.
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Define
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Break
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+[DEBUG] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+[DEBUG] Created '20' parsers.
+[DEBUG] Velocimacro : initialization starting.
+[DEBUG] Velocimacro : allowInline = true : VMs can be defined inline in templates
+[DEBUG] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+[DEBUG] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+[DEBUG] Velocimacro : autoload off : VM system will not automatically reload global library macros
+[DEBUG] Velocimacro : Velocimacro : initialization complete.
+[DEBUG] RuntimeInstance successfully initialized.
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-plugin-plugin:3.4:helpmojo' with basic configurator -->
+[DEBUG]   (f) dependencies = [org.apache.commons:commons-exec:jar:1.2:compile, org.apache.maven:maven-plugin-api:jar:3.0:provided, org.apache.maven:maven-model:jar:3.0:compile, org.apache.maven:maven-artifact:jar:3.0:compile, org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile, org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile, org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile, org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile, org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.0:provided, org.codehaus.plexus:plexus-utils:jar:3.0:compile, org.apache.maven:maven-compat:jar:3.0:compile, org.apache.maven:maven-model-builder:jar:3.0:compile, org.apache.maven:maven-settings:jar:3.0:compile, org.apache.maven:maven-core:jar:3.0:compile, org.apache.maven:maven-settings-builder:jar:3.0:compile, org.apache.maven:maven-repository-metadata:jar:3.0:compile, org.sonatype.aether:aether-impl:jar:1.7:compile, org.sonatype.aether:aether-spi:jar:1.7:compile, org.sonatype.aether:aether-api:jar:1.7:compile, org.sonatype.aether:aether-util:jar:1.7:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile, com.squareup.okhttp3:okhttp:jar:3.8.1:compile, com.squareup.okio:okio:jar:1.13.0:compile]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) local =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) remoteRepos = [      id: default
+      url: https://nexus.ecom.ahold.nl/content/groups/public
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipErrorNoDescriptorsFound = true
+[DEBUG] -- end configuration --
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[DEBUG] Using 2 mojo extractors.
+[DEBUG] Applying mojo extractor with id: java-javadoc
+[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
+[DEBUG] Applying mojo extractor with id: java-annotations
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingTestMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingTestMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='test', defaultPhase=TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingIntegrationMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingIntegrationMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='integration-test', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.RecorderMojo:MojoAnnotatedClass{className='io.gatling.mojo.RecorderMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='recorder', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={proxyPort=AnnotatedField{fieldName='proxyPort'}ParameterAnnotationContent{name='null', alias='pp', property='gatling.recorder.proxyPort', defaultValue='null', required=false, readonly=false}, localPort=AnnotatedField{fieldName='localPort'}ParameterAnnotationContent{name='null', alias='lp', property='gatling.recorder.localPort', defaultValue='null', required=false, readonly=false}, followRedirect=AnnotatedField{fieldName='followRedirect'}ParameterAnnotationContent{name='null', alias='fr', property='gatling.recorder.followRedirect', defaultValue='null', required=false, readonly=false}, proxySSLPort=AnnotatedField{fieldName='proxySSLPort'}ParameterAnnotationContent{name='null', alias='pps', property='gatling.recorder.proxySslPort', defaultValue='null', required=false, readonly=false}, className=AnnotatedField{fieldName='className'}ParameterAnnotationContent{name='null', alias='cn', property='gatling.recorder.className', defaultValue='null', required=false, readonly=false}, packageName=AnnotatedField{fieldName='packageName'}ParameterAnnotationContent{name='null', alias='pkg', property='gatling.recorder.package', defaultValue='${project.groupId}', required=false, readonly=false}, encoding=AnnotatedField{fieldName='encoding'}ParameterAnnotationContent{name='null', alias='enc', property='gatling.recorder.encoding', defaultValue='null', required=false, readonly=false}, proxyHost=AnnotatedField{fieldName='proxyHost'}ParameterAnnotationContent{name='null', alias='ph', property='gatling.recorder.proxyHost', defaultValue='null', required=false, readonly=false}, outputFolder=AnnotatedField{fieldName='outputFolder'}ParameterAnnotationContent{name='null', alias='of', property='gatling.recorder.outputFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.HelpMojo:MojoAnnotatedClass{className='io.gatling.mojo.HelpMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=MojoAnnotationContent{name='help', defaultPhase=NONE, requiresDependencyResolution='NONE', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=false, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=true}, execute=null, parameters={goal=AnnotatedField{fieldName='goal'}ParameterAnnotationContent{name='null', alias='null', property='goal', defaultValue='null', required=false, readonly=false}, detail=AnnotatedField{fieldName='detail'}ParameterAnnotationContent{name='null', alias='null', property='detail', defaultValue='false', required=false, readonly=false}, indentSize=AnnotatedField{fieldName='indentSize'}ParameterAnnotationContent{name='null', alias='null', property='indentSize', defaultValue='2', required=false, readonly=false}, lineLength=AnnotatedField{fieldName='lineLength'}ParameterAnnotationContent{name='null', alias='null', property='lineLength', defaultValue='80', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.AbstractGatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.AbstractGatlingMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=null, execute=null, parameters={mavenProject=AnnotatedField{fieldName='mavenProject'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project}', required=false, readonly=true}, compiledClassesFolder=AnnotatedField{fieldName='compiledClassesFolder'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project.build.testOutputDirectory}', required=false, readonly=true}, session=AnnotatedField{fieldName='session'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${session}', required=false, readonly=true}, configFolder=AnnotatedField{fieldName='configFolder'}ParameterAnnotationContent{name='null', alias='cd', property='gatling.configFolder', defaultValue='${project.basedir}/src/test/resources', required=false, readonly=false}, bodiesFolder=AnnotatedField{fieldName='bodiesFolder'}ParameterAnnotationContent{name='null', alias='bdf', property='gatling.bodiesFolder', defaultValue='${project.basedir}/src/test/resources/bodies', required=false, readonly=false}}, components={toolchainManager=AnnotatedField{fieldName='toolchainManager'}ComponentAnnotationContent{role='org.apache.maven.toolchain.ToolchainManager', hint='null'}, repository=AnnotatedField{fieldName='repository'}ComponentAnnotationContent{role='org.apache.maven.repository.RepositorySystem', hint='null'}}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='execute', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={perfanaUrl=AnnotatedField{fieldName='perfanaUrl'}ParameterAnnotationContent{name='null', alias='iourl', property='gatling.perfanaUrl', defaultValue='http://localhost:3000', required=false, readonly=false}, excludes=AnnotatedField{fieldName='excludes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.excludes', defaultValue='false', required=false, readonly=false}, applicationRelease=AnnotatedField{fieldName='applicationRelease'}ParameterAnnotationContent{name='null', alias='pr', property='gatling.applicationRelease', defaultValue='1.0.0', required=false, readonly=false}, simulationsFolder=AnnotatedField{fieldName='simulationsFolder'}ParameterAnnotationContent{name='null', alias='sf', property='gatling.simulationsFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}, reportsDirectory=AnnotatedField{fieldName='reportsDirectory'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${basedir}/target/gatling', required=false, readonly=true}, testType=AnnotatedField{fieldName='testType'}ParameterAnnotationContent{name='null', alias='tt', property='gatling.testType', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, skip=AnnotatedField{fieldName='skip'}ParameterAnnotationContent{name='null', alias='null', property='gatling.skip', defaultValue='false', required=false, readonly=false}, runMultipleSimulations=AnnotatedField{fieldName='runMultipleSimulations'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, jvmArgs=AnnotatedField{fieldName='jvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.jvmArgs', defaultValue='null', required=false, readonly=false}, useOldJenkinsJUnitSupport=AnnotatedField{fieldName='useOldJenkinsJUnitSupport'}ParameterAnnotationContent{name='null', alias='null', property='gatling.useOldJenkinsJUnitSupport', defaultValue='false', required=false, readonly=false}, resultsFolder=AnnotatedField{fieldName='resultsFolder'}ParameterAnnotationContent{name='null', alias='rf', property='gatling.resultsFolder', defaultValue='${project.basedir}/target/gatling', required=false, readonly=false}, assertResultsEnabled=AnnotatedField{fieldName='assertResultsEnabled'}ParameterAnnotationContent{name='null', alias='ar', property='gatling.assertResultsEnabled', defaultValue='false', required=false, readonly=false}, disableCompiler=AnnotatedField{fieldName='disableCompiler'}ParameterAnnotationContent{name='null', alias='null', property='gatling.disableCompiler', defaultValue='false', required=false, readonly=false}, rampupTimeInSeconds=AnnotatedField{fieldName='rampupTimeInSeconds'}ParameterAnnotationContent{name='null', alias='rt', property='gatling.rampupTimeInSeconds', defaultValue='30', required=false, readonly=false}, reportsOnly=AnnotatedField{fieldName='reportsOnly'}ParameterAnnotationContent{name='null', alias='ro', property='gatling.reportsOnly', defaultValue='null', required=false, readonly=false}, dataFolder=AnnotatedField{fieldName='dataFolder'}ParameterAnnotationContent{name='null', alias='df', property='gatling.dataFolder', defaultValue='${project.basedir}/src/test/resources/data', required=false, readonly=false}, artifacts=AnnotatedField{fieldName='artifacts'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${plugin.artifacts}', required=false, readonly=true}, plannedDurationInSeconds=AnnotatedField{fieldName='plannedDurationInSeconds'}ParameterAnnotationContent{name='null', alias='pd', property='gatling.plannedDurationInSeconds', defaultValue='30', required=false, readonly=false}, propagateSystemProperties=AnnotatedField{fieldName='propagateSystemProperties'}ParameterAnnotationContent{name='null', alias='null', property='gatling.propagateSystemProperties', defaultValue='true', required=false, readonly=false}, testRunId=AnnotatedField{fieldName='testRunId'}ParameterAnnotationContent{name='null', alias='tid', property='gatling.testRunId', defaultValue='UNKNOWN_TEST_ID', required=false, readonly=false}, runDescription=AnnotatedField{fieldName='runDescription'}ParameterAnnotationContent{name='null', alias='null', property='gatling.runDescription', defaultValue='null', required=false, readonly=false}, simulationClass=AnnotatedField{fieldName='simulationClass'}ParameterAnnotationContent{name='null', alias='sc', property='gatling.simulationClass', defaultValue='null', required=false, readonly=false}, includes=AnnotatedField{fieldName='includes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.includes', defaultValue='false', required=false, readonly=false}, CIBuildResultsUrl=AnnotatedField{fieldName='CIBuildResultsUrl'}ParameterAnnotationContent{name='null', alias='url', property='gatling.CIBuildResultsUrl', defaultValue='http://localhost', required=false, readonly=false}, failOnError=AnnotatedField{fieldName='failOnError'}ParameterAnnotationContent{name='null', alias='null', property='gatling.failOnError', defaultValue='true', required=false, readonly=false}, outputDirectoryBaseName=AnnotatedField{fieldName='outputDirectoryBaseName'}ParameterAnnotationContent{name='null', alias='on', property='gatling.outputName', defaultValue='null', required=false, readonly=false}, testEnvironment=AnnotatedField{fieldName='testEnvironment'}ParameterAnnotationContent{name='null', alias='te', property='gatling.testEnvironment', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, application=AnnotatedField{fieldName='application'}ParameterAnnotationContent{name='null', alias='ap', property='gatling.application', defaultValue='UNKNOWN_APPLICATION', required=false, readonly=false}, overrideGatlingJvmArgs=AnnotatedField{fieldName='overrideGatlingJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, zincJvmArgs=AnnotatedField{fieldName='zincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.zincJvmArgs', defaultValue='null', required=false, readonly=false}, overrideZincJvmArgs=AnnotatedField{fieldName='overrideZincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, perfanaEnabled=AnnotatedField{fieldName='perfanaEnabled'}ParameterAnnotationContent{name='null', alias='tie', property='gatling.perfanaEnabled', defaultValue='false', required=false, readonly=false}, noReports=AnnotatedField{fieldName='noReports'}ParameterAnnotationContent{name='null', alias='nr', property='gatling.noReports', defaultValue='false', required=false, readonly=false}, continueOnAssertionFailure=AnnotatedField{fieldName='continueOnAssertionFailure'}ParameterAnnotationContent{name='null', alias='null', property='gatling.continueOnAssertionFailure', defaultValue='false', required=false, readonly=false}}, components={}}
+[INFO] Mojo extractor with id: java-annotations found 5 mojo descriptors.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:integration-test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:recorder', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:execute', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:help', realm: null] to plugin descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ perfana-gatling-maven-plugin ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=59, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SUDO_COMMAND=/usr/bin/mvn deploy -X, os.name=Linux, nexus-staging-maven-plugin.version=1.6.5, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/home/daniel/workspace/perfana-gatling-maven-plugin, env.LANG=en_US.UTF-8, archetypeRepository=https://nexus.ecom.ahold.nl/content/repositories/releases, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, commons-exec.version=1.2, user.name=root, maven.build.version=Apache Maven 3.3.9, env.USER=root, env.SHELL=/bin/bash, env.LC_ADDRESS=nl_NL.UTF-8, header.basedir=/home/daniel/workspace/perfana-gatling-maven-plugin, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin, user.language=en, env.LC_MONETARY=nl_NL.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, java.version=1.8.0_131, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=nl_NL.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, maven-plugin-plugin.version=3.4, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, plexus-utils.version=3.0, env.LOGNAME=root, os.version=4.10.0-38-generic, maven-license-plugin.version=1.10.b1, maven.compiler.target=1.8, path.separator=:, java.vm.version=25.131-b11, env.LANGUAGE=en_US, env.LC_TELEPHONE=nl_NL.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, env.SUDO_UID=1000, awt.toolkit=sun.awt.X11.XToolkit, env.LC_MEASUREMENT=nl_NL.UTF-8, user.home=/root, env.OLDPWD=/home/daniel/workspace/perfana-gatling-maven-plugin, java.specification.vendor=Oracle Corporation, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= deploy -X, java.vm.vendor=Oracle Corporation, maven.home=/usr/share/maven, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher deploy -X, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sonatypeOssDistMgmtSnapshotsUrl=https://oss.sonatype.org/content/repositories/snapshots/, maven.version=3.3.9, arguments=, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/daniel, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, maven3.version=3.0, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/daniel/workspace/perfana-gatling-maven-plugin, maven.compiler.source=1.8, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/daniel/.Xauthority, user.dir=/home/daniel/workspace/perfana-gatling-maven-plugin, env.SUDO_USER=daniel, line.separator=
+, env.LC_NUMERIC=nl_NL.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=gnome-terminal, env.LC_TIME=nl_NL.UTF-8, env.USERNAME=root, env.MAIL=/var/mail/root, file.encoding=UTF-8, env.LC_IDENTIFICATION=nl_NL.UTF-8, env.SUDO_GID=1000, java.specification.version=1.8, encoding=UTF-8, env.MAVEN_PROJECTBASEDIR=/home/daniel/workspace/perfana-gatling-maven-plugin, env.LC_NAME=nl_NL.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] file logback.xml has a filtered file extension
+[DEBUG] copy /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/resources/logback.xml to /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes/logback.xml
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ perfana-gatling-maven-plugin ---
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for plexus.snapshots (https://oss.sonatype.org/content/repositories/plexus-snapshots).
+[DEBUG] Using mirror default (https://nexus.ecom.ahold.nl/content/groups/public) for apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=55, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.4:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.4
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/daniel/workspace/perfana-gatling-maven-plugin
+[DEBUG]   (f) buildDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target
+[DEBUG]   (f) classpathElements = [/home/daniel/workspace/perfana-gatling-maven-plugin/target/classes, /root/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar, /root/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar, /root/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar, /root/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar, /root/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar, /root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar, /root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar, /root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar, /root/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.0/maven-plugin-annotations-3.0.jar, /root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar, /root/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar, /root/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar, /root/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar, /root/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar, /root/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar, /root/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar, /root/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar, /root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar, /root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar, /root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar, /root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar, /root/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar, /root/.m2/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar, /root/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java, /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.2:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) projectArtifact = qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java
+ /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin]
+[DEBUG] Classpath: [/home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+ /root/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar
+ /root/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+ /root/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+ /root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+ /root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+ /root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+ /root/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.0/maven-plugin-annotations-3.0.jar
+ /root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+ /root/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+ /root/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+ /root/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+ /root/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+ /root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+ /root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+ /root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+ /root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+ /root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+ /root/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+ /root/.m2/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar
+ /root/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar]
+[DEBUG] Output directory: /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG] Adding /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations to compile source roots:
+  /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java
+  /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin
+[DEBUG] New compile source roots:
+  /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java
+  /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin
+  /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin/io/gatling/mojo/HelpMojo.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG]  /root/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+[DEBUG]  /root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.0/maven-plugin-annotations-3.0.jar
+[DEBUG]  /root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[DEBUG]  /root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[DEBUG]  /root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[DEBUG]  /root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[DEBUG]  /root/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+[DEBUG]  /root/.m2/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar
+[DEBUG]  /root/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java
+[DEBUG]  /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin
+[DEBUG]  /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes -classpath /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes:/root/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar:/root/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/root/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/root/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/root/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/root/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.0/maven-plugin-annotations-3.0.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar:/root/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar:/root/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/root/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/root/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/root/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/root/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/root/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/root/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar:/root/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar: -sourcepath /home/daniel/workspace/perfana-gatling-maven-plugin/src/main/java:/home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/plugin:/home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations: -s /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-sources/annotations -g -nowarn -target 1.8 -source 1.8 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 13 source files to /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.4:descriptor (default-descriptor) @ perfana-gatling-maven-plugin ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor' with basic configurator -->
+[DEBUG]   (f) dependencies = [org.apache.commons:commons-exec:jar:1.2:compile, org.apache.maven:maven-model:jar:3.0:compile, org.apache.maven:maven-artifact:jar:3.0:compile, org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile, org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile, org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile, org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile, org.codehaus.plexus:plexus-utils:jar:3.0:compile, org.apache.maven:maven-compat:jar:3.0:compile, org.apache.maven:maven-model-builder:jar:3.0:compile, org.apache.maven:maven-settings:jar:3.0:compile, org.apache.maven:maven-core:jar:3.0:compile, org.apache.maven:maven-settings-builder:jar:3.0:compile, org.apache.maven:maven-repository-metadata:jar:3.0:compile, org.apache.maven:maven-aether-provider:jar:3.0:runtime, org.sonatype.aether:aether-impl:jar:1.7:compile, org.sonatype.aether:aether-spi:jar:1.7:compile, org.sonatype.aether:aether-api:jar:1.7:compile, org.sonatype.aether:aether-util:jar:1.7:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile, com.squareup.okhttp3:okhttp:jar:3.8.1:compile, com.squareup.okio:okio:jar:1.13.0:compile]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) local =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes/META-INF/maven
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) remoteRepos = [      id: default
+      url: https://nexus.ecom.ahold.nl/content/groups/public
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipDescriptor = false
+[DEBUG]   (f) skipErrorNoDescriptorsFound = true
+[DEBUG] -- end configuration --
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[DEBUG] Using 2 mojo extractors.
+[DEBUG] Applying mojo extractor with id: java-javadoc
+[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
+[DEBUG] Applying mojo extractor with id: java-annotations
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingTestMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingTestMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='test', defaultPhase=TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingIntegrationMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingIntegrationMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='integration-test', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.RecorderMojo:MojoAnnotatedClass{className='io.gatling.mojo.RecorderMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='recorder', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={proxyPort=AnnotatedField{fieldName='proxyPort'}ParameterAnnotationContent{name='null', alias='pp', property='gatling.recorder.proxyPort', defaultValue='null', required=false, readonly=false}, localPort=AnnotatedField{fieldName='localPort'}ParameterAnnotationContent{name='null', alias='lp', property='gatling.recorder.localPort', defaultValue='null', required=false, readonly=false}, followRedirect=AnnotatedField{fieldName='followRedirect'}ParameterAnnotationContent{name='null', alias='fr', property='gatling.recorder.followRedirect', defaultValue='null', required=false, readonly=false}, proxySSLPort=AnnotatedField{fieldName='proxySSLPort'}ParameterAnnotationContent{name='null', alias='pps', property='gatling.recorder.proxySslPort', defaultValue='null', required=false, readonly=false}, className=AnnotatedField{fieldName='className'}ParameterAnnotationContent{name='null', alias='cn', property='gatling.recorder.className', defaultValue='null', required=false, readonly=false}, packageName=AnnotatedField{fieldName='packageName'}ParameterAnnotationContent{name='null', alias='pkg', property='gatling.recorder.package', defaultValue='${project.groupId}', required=false, readonly=false}, encoding=AnnotatedField{fieldName='encoding'}ParameterAnnotationContent{name='null', alias='enc', property='gatling.recorder.encoding', defaultValue='null', required=false, readonly=false}, proxyHost=AnnotatedField{fieldName='proxyHost'}ParameterAnnotationContent{name='null', alias='ph', property='gatling.recorder.proxyHost', defaultValue='null', required=false, readonly=false}, outputFolder=AnnotatedField{fieldName='outputFolder'}ParameterAnnotationContent{name='null', alias='of', property='gatling.recorder.outputFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.HelpMojo:MojoAnnotatedClass{className='io.gatling.mojo.HelpMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=MojoAnnotationContent{name='help', defaultPhase=NONE, requiresDependencyResolution='NONE', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=false, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=true}, execute=null, parameters={goal=AnnotatedField{fieldName='goal'}ParameterAnnotationContent{name='null', alias='null', property='goal', defaultValue='null', required=false, readonly=false}, detail=AnnotatedField{fieldName='detail'}ParameterAnnotationContent{name='null', alias='null', property='detail', defaultValue='false', required=false, readonly=false}, indentSize=AnnotatedField{fieldName='indentSize'}ParameterAnnotationContent{name='null', alias='null', property='indentSize', defaultValue='2', required=false, readonly=false}, lineLength=AnnotatedField{fieldName='lineLength'}ParameterAnnotationContent{name='null', alias='null', property='lineLength', defaultValue='80', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.AbstractGatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.AbstractGatlingMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=null, execute=null, parameters={mavenProject=AnnotatedField{fieldName='mavenProject'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project}', required=false, readonly=true}, compiledClassesFolder=AnnotatedField{fieldName='compiledClassesFolder'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project.build.testOutputDirectory}', required=false, readonly=true}, session=AnnotatedField{fieldName='session'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${session}', required=false, readonly=true}, configFolder=AnnotatedField{fieldName='configFolder'}ParameterAnnotationContent{name='null', alias='cd', property='gatling.configFolder', defaultValue='${project.basedir}/src/test/resources', required=false, readonly=false}, bodiesFolder=AnnotatedField{fieldName='bodiesFolder'}ParameterAnnotationContent{name='null', alias='bdf', property='gatling.bodiesFolder', defaultValue='${project.basedir}/src/test/resources/bodies', required=false, readonly=false}}, components={toolchainManager=AnnotatedField{fieldName='toolchainManager'}ComponentAnnotationContent{role='org.apache.maven.toolchain.ToolchainManager', hint='null'}, repository=AnnotatedField{fieldName='repository'}ComponentAnnotationContent{role='org.apache.maven.repository.RepositorySystem', hint='null'}}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='execute', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={perfanaUrl=AnnotatedField{fieldName='perfanaUrl'}ParameterAnnotationContent{name='null', alias='iourl', property='gatling.perfanaUrl', defaultValue='http://localhost:3000', required=false, readonly=false}, excludes=AnnotatedField{fieldName='excludes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.excludes', defaultValue='false', required=false, readonly=false}, applicationRelease=AnnotatedField{fieldName='applicationRelease'}ParameterAnnotationContent{name='null', alias='pr', property='gatling.applicationRelease', defaultValue='1.0.0', required=false, readonly=false}, simulationsFolder=AnnotatedField{fieldName='simulationsFolder'}ParameterAnnotationContent{name='null', alias='sf', property='gatling.simulationsFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}, reportsDirectory=AnnotatedField{fieldName='reportsDirectory'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${basedir}/target/gatling', required=false, readonly=true}, testType=AnnotatedField{fieldName='testType'}ParameterAnnotationContent{name='null', alias='tt', property='gatling.testType', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, skip=AnnotatedField{fieldName='skip'}ParameterAnnotationContent{name='null', alias='null', property='gatling.skip', defaultValue='false', required=false, readonly=false}, runMultipleSimulations=AnnotatedField{fieldName='runMultipleSimulations'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, jvmArgs=AnnotatedField{fieldName='jvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.jvmArgs', defaultValue='null', required=false, readonly=false}, useOldJenkinsJUnitSupport=AnnotatedField{fieldName='useOldJenkinsJUnitSupport'}ParameterAnnotationContent{name='null', alias='null', property='gatling.useOldJenkinsJUnitSupport', defaultValue='false', required=false, readonly=false}, resultsFolder=AnnotatedField{fieldName='resultsFolder'}ParameterAnnotationContent{name='null', alias='rf', property='gatling.resultsFolder', defaultValue='${project.basedir}/target/gatling', required=false, readonly=false}, assertResultsEnabled=AnnotatedField{fieldName='assertResultsEnabled'}ParameterAnnotationContent{name='null', alias='ar', property='gatling.assertResultsEnabled', defaultValue='false', required=false, readonly=false}, disableCompiler=AnnotatedField{fieldName='disableCompiler'}ParameterAnnotationContent{name='null', alias='null', property='gatling.disableCompiler', defaultValue='false', required=false, readonly=false}, rampupTimeInSeconds=AnnotatedField{fieldName='rampupTimeInSeconds'}ParameterAnnotationContent{name='null', alias='rt', property='gatling.rampupTimeInSeconds', defaultValue='30', required=false, readonly=false}, reportsOnly=AnnotatedField{fieldName='reportsOnly'}ParameterAnnotationContent{name='null', alias='ro', property='gatling.reportsOnly', defaultValue='null', required=false, readonly=false}, dataFolder=AnnotatedField{fieldName='dataFolder'}ParameterAnnotationContent{name='null', alias='df', property='gatling.dataFolder', defaultValue='${project.basedir}/src/test/resources/data', required=false, readonly=false}, artifacts=AnnotatedField{fieldName='artifacts'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${plugin.artifacts}', required=false, readonly=true}, plannedDurationInSeconds=AnnotatedField{fieldName='plannedDurationInSeconds'}ParameterAnnotationContent{name='null', alias='pd', property='gatling.plannedDurationInSeconds', defaultValue='30', required=false, readonly=false}, propagateSystemProperties=AnnotatedField{fieldName='propagateSystemProperties'}ParameterAnnotationContent{name='null', alias='null', property='gatling.propagateSystemProperties', defaultValue='true', required=false, readonly=false}, testRunId=AnnotatedField{fieldName='testRunId'}ParameterAnnotationContent{name='null', alias='tid', property='gatling.testRunId', defaultValue='UNKNOWN_TEST_ID', required=false, readonly=false}, runDescription=AnnotatedField{fieldName='runDescription'}ParameterAnnotationContent{name='null', alias='null', property='gatling.runDescription', defaultValue='null', required=false, readonly=false}, simulationClass=AnnotatedField{fieldName='simulationClass'}ParameterAnnotationContent{name='null', alias='sc', property='gatling.simulationClass', defaultValue='null', required=false, readonly=false}, includes=AnnotatedField{fieldName='includes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.includes', defaultValue='false', required=false, readonly=false}, CIBuildResultsUrl=AnnotatedField{fieldName='CIBuildResultsUrl'}ParameterAnnotationContent{name='null', alias='url', property='gatling.CIBuildResultsUrl', defaultValue='http://localhost', required=false, readonly=false}, failOnError=AnnotatedField{fieldName='failOnError'}ParameterAnnotationContent{name='null', alias='null', property='gatling.failOnError', defaultValue='true', required=false, readonly=false}, outputDirectoryBaseName=AnnotatedField{fieldName='outputDirectoryBaseName'}ParameterAnnotationContent{name='null', alias='on', property='gatling.outputName', defaultValue='null', required=false, readonly=false}, testEnvironment=AnnotatedField{fieldName='testEnvironment'}ParameterAnnotationContent{name='null', alias='te', property='gatling.testEnvironment', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, application=AnnotatedField{fieldName='application'}ParameterAnnotationContent{name='null', alias='ap', property='gatling.application', defaultValue='UNKNOWN_APPLICATION', required=false, readonly=false}, overrideGatlingJvmArgs=AnnotatedField{fieldName='overrideGatlingJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, zincJvmArgs=AnnotatedField{fieldName='zincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.zincJvmArgs', defaultValue='null', required=false, readonly=false}, overrideZincJvmArgs=AnnotatedField{fieldName='overrideZincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, perfanaEnabled=AnnotatedField{fieldName='perfanaEnabled'}ParameterAnnotationContent{name='null', alias='tie', property='gatling.perfanaEnabled', defaultValue='false', required=false, readonly=false}, noReports=AnnotatedField{fieldName='noReports'}ParameterAnnotationContent{name='null', alias='nr', property='gatling.noReports', defaultValue='false', required=false, readonly=false}, continueOnAssertionFailure=AnnotatedField{fieldName='continueOnAssertionFailure'}ParameterAnnotationContent{name='null', alias='null', property='gatling.continueOnAssertionFailure', defaultValue='false', required=false, readonly=false}}, components={}}
+[INFO] Mojo extractor with id: java-annotations found 5 mojo descriptors.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:integration-test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:recorder', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:execute', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:help', realm: null] to plugin descriptor.
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.4:descriptor (mojo-descriptor) @ perfana-gatling-maven-plugin ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-plugin-plugin:3.4:descriptor' with basic configurator -->
+[DEBUG]   (f) dependencies = [org.apache.commons:commons-exec:jar:1.2:compile, org.apache.maven:maven-model:jar:3.0:compile, org.apache.maven:maven-artifact:jar:3.0:compile, org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile, org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile, org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile, org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile, org.codehaus.plexus:plexus-utils:jar:3.0:compile, org.apache.maven:maven-compat:jar:3.0:compile, org.apache.maven:maven-model-builder:jar:3.0:compile, org.apache.maven:maven-settings:jar:3.0:compile, org.apache.maven:maven-core:jar:3.0:compile, org.apache.maven:maven-settings-builder:jar:3.0:compile, org.apache.maven:maven-repository-metadata:jar:3.0:compile, org.apache.maven:maven-aether-provider:jar:3.0:runtime, org.sonatype.aether:aether-impl:jar:1.7:compile, org.sonatype.aether:aether-spi:jar:1.7:compile, org.sonatype.aether:aether-api:jar:1.7:compile, org.sonatype.aether:aether-util:jar:1.7:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile, com.squareup.okhttp3:okhttp:jar:3.8.1:compile, com.squareup.okio:okio:jar:1.13.0:compile]
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) local =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes/META-INF/maven
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) remoteRepos = [      id: default
+      url: https://nexus.ecom.ahold.nl/content/groups/public
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) skipDescriptor = false
+[DEBUG]   (f) skipErrorNoDescriptorsFound = true
+[DEBUG] -- end configuration --
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[DEBUG] Using 2 mojo extractors.
+[DEBUG] Applying mojo extractor with id: java-javadoc
+[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
+[DEBUG] Applying mojo extractor with id: java-annotations
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingTestMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingTestMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='test', defaultPhase=TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingIntegrationMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingIntegrationMojo', parentClassName='io.gatling.mojo.GatlingMojo', mojo=MojoAnnotationContent{name='integration-test', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.RecorderMojo:MojoAnnotatedClass{className='io.gatling.mojo.RecorderMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='recorder', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={proxyPort=AnnotatedField{fieldName='proxyPort'}ParameterAnnotationContent{name='null', alias='pp', property='gatling.recorder.proxyPort', defaultValue='null', required=false, readonly=false}, localPort=AnnotatedField{fieldName='localPort'}ParameterAnnotationContent{name='null', alias='lp', property='gatling.recorder.localPort', defaultValue='null', required=false, readonly=false}, followRedirect=AnnotatedField{fieldName='followRedirect'}ParameterAnnotationContent{name='null', alias='fr', property='gatling.recorder.followRedirect', defaultValue='null', required=false, readonly=false}, proxySSLPort=AnnotatedField{fieldName='proxySSLPort'}ParameterAnnotationContent{name='null', alias='pps', property='gatling.recorder.proxySslPort', defaultValue='null', required=false, readonly=false}, className=AnnotatedField{fieldName='className'}ParameterAnnotationContent{name='null', alias='cn', property='gatling.recorder.className', defaultValue='null', required=false, readonly=false}, packageName=AnnotatedField{fieldName='packageName'}ParameterAnnotationContent{name='null', alias='pkg', property='gatling.recorder.package', defaultValue='${project.groupId}', required=false, readonly=false}, encoding=AnnotatedField{fieldName='encoding'}ParameterAnnotationContent{name='null', alias='enc', property='gatling.recorder.encoding', defaultValue='null', required=false, readonly=false}, proxyHost=AnnotatedField{fieldName='proxyHost'}ParameterAnnotationContent{name='null', alias='ph', property='gatling.recorder.proxyHost', defaultValue='null', required=false, readonly=false}, outputFolder=AnnotatedField{fieldName='outputFolder'}ParameterAnnotationContent{name='null', alias='of', property='gatling.recorder.outputFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.HelpMojo:MojoAnnotatedClass{className='io.gatling.mojo.HelpMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=MojoAnnotationContent{name='help', defaultPhase=NONE, requiresDependencyResolution='NONE', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=false, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=true}, execute=null, parameters={goal=AnnotatedField{fieldName='goal'}ParameterAnnotationContent{name='null', alias='null', property='goal', defaultValue='null', required=false, readonly=false}, detail=AnnotatedField{fieldName='detail'}ParameterAnnotationContent{name='null', alias='null', property='detail', defaultValue='false', required=false, readonly=false}, indentSize=AnnotatedField{fieldName='indentSize'}ParameterAnnotationContent{name='null', alias='null', property='indentSize', defaultValue='2', required=false, readonly=false}, lineLength=AnnotatedField{fieldName='lineLength'}ParameterAnnotationContent{name='null', alias='null', property='lineLength', defaultValue='80', required=false, readonly=false}}, components={}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.AbstractGatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.AbstractGatlingMojo', parentClassName='org.apache.maven.plugin.AbstractMojo', mojo=null, execute=null, parameters={mavenProject=AnnotatedField{fieldName='mavenProject'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project}', required=false, readonly=true}, compiledClassesFolder=AnnotatedField{fieldName='compiledClassesFolder'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${project.build.testOutputDirectory}', required=false, readonly=true}, session=AnnotatedField{fieldName='session'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${session}', required=false, readonly=true}, configFolder=AnnotatedField{fieldName='configFolder'}ParameterAnnotationContent{name='null', alias='cd', property='gatling.configFolder', defaultValue='${project.basedir}/src/test/resources', required=false, readonly=false}, bodiesFolder=AnnotatedField{fieldName='bodiesFolder'}ParameterAnnotationContent{name='null', alias='bdf', property='gatling.bodiesFolder', defaultValue='${project.basedir}/src/test/resources/bodies', required=false, readonly=false}}, components={toolchainManager=AnnotatedField{fieldName='toolchainManager'}ComponentAnnotationContent{role='org.apache.maven.toolchain.ToolchainManager', hint='null'}, repository=AnnotatedField{fieldName='repository'}ComponentAnnotationContent{role='org.apache.maven.repository.RepositorySystem', hint='null'}}}
+[DEBUG] found MojoAnnotatedClass:io.gatling.mojo.GatlingMojo:MojoAnnotatedClass{className='io.gatling.mojo.GatlingMojo', parentClassName='io.gatling.mojo.AbstractGatlingMojo', mojo=MojoAnnotationContent{name='execute', defaultPhase=INTEGRATION_TEST, requiresDependencyResolution='TEST', requiresDependencyCollection='NONE', instantiationStrategy='PER_LOOKUP', executionStrategy='once-per-session', requiresProject=true, requiresReports=false, aggregator=false, requiresDirectInvocation=false, requiresOnline=false, inheritByDefault=true, configurator='null', threadSafe=false}, execute=null, parameters={perfanaUrl=AnnotatedField{fieldName='perfanaUrl'}ParameterAnnotationContent{name='null', alias='iourl', property='gatling.perfanaUrl', defaultValue='http://localhost:3000', required=false, readonly=false}, excludes=AnnotatedField{fieldName='excludes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.excludes', defaultValue='false', required=false, readonly=false}, applicationRelease=AnnotatedField{fieldName='applicationRelease'}ParameterAnnotationContent{name='null', alias='pr', property='gatling.applicationRelease', defaultValue='1.0.0', required=false, readonly=false}, simulationsFolder=AnnotatedField{fieldName='simulationsFolder'}ParameterAnnotationContent{name='null', alias='sf', property='gatling.simulationsFolder', defaultValue='${project.basedir}/src/test/scala', required=false, readonly=false}, reportsDirectory=AnnotatedField{fieldName='reportsDirectory'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${basedir}/target/gatling', required=false, readonly=true}, testType=AnnotatedField{fieldName='testType'}ParameterAnnotationContent{name='null', alias='tt', property='gatling.testType', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, skip=AnnotatedField{fieldName='skip'}ParameterAnnotationContent{name='null', alias='null', property='gatling.skip', defaultValue='false', required=false, readonly=false}, runMultipleSimulations=AnnotatedField{fieldName='runMultipleSimulations'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, jvmArgs=AnnotatedField{fieldName='jvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.jvmArgs', defaultValue='null', required=false, readonly=false}, useOldJenkinsJUnitSupport=AnnotatedField{fieldName='useOldJenkinsJUnitSupport'}ParameterAnnotationContent{name='null', alias='null', property='gatling.useOldJenkinsJUnitSupport', defaultValue='false', required=false, readonly=false}, resultsFolder=AnnotatedField{fieldName='resultsFolder'}ParameterAnnotationContent{name='null', alias='rf', property='gatling.resultsFolder', defaultValue='${project.basedir}/target/gatling', required=false, readonly=false}, assertResultsEnabled=AnnotatedField{fieldName='assertResultsEnabled'}ParameterAnnotationContent{name='null', alias='ar', property='gatling.assertResultsEnabled', defaultValue='false', required=false, readonly=false}, disableCompiler=AnnotatedField{fieldName='disableCompiler'}ParameterAnnotationContent{name='null', alias='null', property='gatling.disableCompiler', defaultValue='false', required=false, readonly=false}, rampupTimeInSeconds=AnnotatedField{fieldName='rampupTimeInSeconds'}ParameterAnnotationContent{name='null', alias='rt', property='gatling.rampupTimeInSeconds', defaultValue='30', required=false, readonly=false}, reportsOnly=AnnotatedField{fieldName='reportsOnly'}ParameterAnnotationContent{name='null', alias='ro', property='gatling.reportsOnly', defaultValue='null', required=false, readonly=false}, dataFolder=AnnotatedField{fieldName='dataFolder'}ParameterAnnotationContent{name='null', alias='df', property='gatling.dataFolder', defaultValue='${project.basedir}/src/test/resources/data', required=false, readonly=false}, artifacts=AnnotatedField{fieldName='artifacts'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='${plugin.artifacts}', required=false, readonly=true}, plannedDurationInSeconds=AnnotatedField{fieldName='plannedDurationInSeconds'}ParameterAnnotationContent{name='null', alias='pd', property='gatling.plannedDurationInSeconds', defaultValue='30', required=false, readonly=false}, propagateSystemProperties=AnnotatedField{fieldName='propagateSystemProperties'}ParameterAnnotationContent{name='null', alias='null', property='gatling.propagateSystemProperties', defaultValue='true', required=false, readonly=false}, testRunId=AnnotatedField{fieldName='testRunId'}ParameterAnnotationContent{name='null', alias='tid', property='gatling.testRunId', defaultValue='UNKNOWN_TEST_ID', required=false, readonly=false}, runDescription=AnnotatedField{fieldName='runDescription'}ParameterAnnotationContent{name='null', alias='null', property='gatling.runDescription', defaultValue='null', required=false, readonly=false}, simulationClass=AnnotatedField{fieldName='simulationClass'}ParameterAnnotationContent{name='null', alias='sc', property='gatling.simulationClass', defaultValue='null', required=false, readonly=false}, includes=AnnotatedField{fieldName='includes'}ParameterAnnotationContent{name='null', alias='null', property='gatling.includes', defaultValue='false', required=false, readonly=false}, CIBuildResultsUrl=AnnotatedField{fieldName='CIBuildResultsUrl'}ParameterAnnotationContent{name='null', alias='url', property='gatling.CIBuildResultsUrl', defaultValue='http://localhost', required=false, readonly=false}, failOnError=AnnotatedField{fieldName='failOnError'}ParameterAnnotationContent{name='null', alias='null', property='gatling.failOnError', defaultValue='true', required=false, readonly=false}, outputDirectoryBaseName=AnnotatedField{fieldName='outputDirectoryBaseName'}ParameterAnnotationContent{name='null', alias='on', property='gatling.outputName', defaultValue='null', required=false, readonly=false}, testEnvironment=AnnotatedField{fieldName='testEnvironment'}ParameterAnnotationContent{name='null', alias='te', property='gatling.testEnvironment', defaultValue='UNKNOWN_TEST_TYPE', required=false, readonly=false}, application=AnnotatedField{fieldName='application'}ParameterAnnotationContent{name='null', alias='ap', property='gatling.application', defaultValue='UNKNOWN_APPLICATION', required=false, readonly=false}, overrideGatlingJvmArgs=AnnotatedField{fieldName='overrideGatlingJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, zincJvmArgs=AnnotatedField{fieldName='zincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='gatling.zincJvmArgs', defaultValue='null', required=false, readonly=false}, overrideZincJvmArgs=AnnotatedField{fieldName='overrideZincJvmArgs'}ParameterAnnotationContent{name='null', alias='null', property='null', defaultValue='false', required=false, readonly=false}, perfanaEnabled=AnnotatedField{fieldName='perfanaEnabled'}ParameterAnnotationContent{name='null', alias='tie', property='gatling.perfanaEnabled', defaultValue='false', required=false, readonly=false}, noReports=AnnotatedField{fieldName='noReports'}ParameterAnnotationContent{name='null', alias='nr', property='gatling.noReports', defaultValue='false', required=false, readonly=false}, continueOnAssertionFailure=AnnotatedField{fieldName='continueOnAssertionFailure'}ParameterAnnotationContent{name='null', alias='null', property='gatling.continueOnAssertionFailure', defaultValue='false', required=false, readonly=false}}, components={}}
+[INFO] Mojo extractor with id: java-annotations found 5 mojo descriptors.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:integration-test', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:recorder', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:execute', realm: null] to plugin descriptor.
+[DEBUG] Adding mojo: org.apache.maven.tools.plugin.ExtendedMojoDescriptor [role: 'org.apache.maven.plugin.Mojo', hint: 'qa.perfana:perfana-gatling-maven-plugin:0.0.1:help', realm: null] to plugin descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ perfana-gatling-maven-plugin ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/daniel/workspace/perfana-gatling-maven-plugin/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.SUDO_COMMAND=/usr/bin/mvn deploy -X, os.name=Linux, nexus-staging-maven-plugin.version=1.6.5, sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes, env.PWD=/home/daniel/workspace/perfana-gatling-maven-plugin, env.LANG=en_US.UTF-8, archetypeRepository=https://nexus.ecom.ahold.nl/content/repositories/releases, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, commons-exec.version=1.2, user.name=root, maven.build.version=Apache Maven 3.3.9, env.USER=root, env.SHELL=/bin/bash, env.LC_ADDRESS=nl_NL.UTF-8, header.basedir=/home/daniel/workspace/perfana-gatling-maven-plugin, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin, user.language=en, env.LC_MONETARY=nl_NL.UTF-8, sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64, classworlds.conf=/usr/share/maven/bin/m2.conf, java.version=1.8.0_131, user.timezone=, sun.arch.data.model=64, java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed, sun.cpu.isalist=, env.LC_PAPER=nl_NL.UTF-8, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, maven-plugin-plugin.version=3.4, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre, java.vm.info=mixed mode, plexus-utils.version=3.0, env.LOGNAME=root, os.version=4.10.0-38-generic, maven-license-plugin.version=1.10.b1, maven.compiler.target=1.8, path.separator=:, java.vm.version=25.131-b11, env.LANGUAGE=en_US, env.LC_TELEPHONE=nl_NL.UTF-8, env.JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, env.SUDO_UID=1000, awt.toolkit=sun.awt.X11.XToolkit, env.LC_MEASUREMENT=nl_NL.UTF-8, user.home=/root, env.OLDPWD=/home/daniel/workspace/perfana-gatling-maven-plugin, java.specification.vendor=Oracle Corporation, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= deploy -X, java.vm.vendor=Oracle Corporation, maven.home=/usr/share/maven, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher deploy -X, java.class.path=/usr/share/maven/boot/plexus-classworlds-2.x.jar, sonatypeOssDistMgmtSnapshotsUrl=https://oss.sonatype.org/content/repositories/snapshots/, maven.version=3.3.9, arguments=, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.8, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/home/daniel, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:, java.io.tmpdir=/tmp, maven3.version=3.0, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/daniel/workspace/perfana-gatling-maven-plugin, maven.compiler.source=1.8, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, env.XAUTHORITY=/home/daniel/.Xauthority, user.dir=/home/daniel/workspace/perfana-gatling-maven-plugin, env.SUDO_USER=daniel, line.separator=
+, env.LC_NUMERIC=nl_NL.UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, env.COLORTERM=gnome-terminal, env.LC_TIME=nl_NL.UTF-8, env.USERNAME=root, env.MAIL=/var/mail/root, file.encoding=UTF-8, env.LC_IDENTIFICATION=nl_NL.UTF-8, env.SUDO_GID=1000, java.specification.version=1.8, encoding=UTF-8, env.MAVEN_PROJECTBASEDIR=/home/daniel/workspace/perfana-gatling-maven-plugin, env.LC_NAME=nl_NL.UTF-8}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/daniel/workspace/perfana-gatling-maven-plugin/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/daniel/workspace/perfana-gatling-maven-plugin/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ perfana-gatling-maven-plugin ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.2, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/daniel/workspace/perfana-gatling-maven-plugin
+[DEBUG]   (f) buildDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target
+[DEBUG]   (f) classpathElements = [/home/daniel/workspace/perfana-gatling-maven-plugin/target/test-classes, /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes, /root/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar, /root/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar, /root/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar, /root/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar, /root/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar, /root/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar, /root/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar, /root/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar, /root/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.0/maven-plugin-annotations-3.0.jar, /root/.m2/repository/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar, /root/.m2/repository/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar, /root/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar, /root/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar, /root/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar, /root/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar, /root/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar, /root/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar, /root/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar, /root/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar, /root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar, /root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar, /root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar, /root/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar, /root/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar, /root/.m2/repository/com/squareup/okhttp3/okhttp/3.8.1/okhttp-3.8.1.jar, /root/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/daniel/workspace/perfana-gatling-maven-plugin/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.2:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/test-classes
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ perfana-gatling-maven-plugin ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=98, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=69, DefaultDependencyCollector.collectTime=28, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.17:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.17:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:test
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.17:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.17
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.17
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.17
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.17:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.17, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.17:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /home/daniel/workspace/perfana-gatling-maven-plugin
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.17:, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.0.9:compile, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.17:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.17:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.0.9:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.1:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.0.9:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.0.9:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.0.9:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.0.9:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.0.9:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.0.9:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.0.9:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.0.9:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.0.9:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.17:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.0.9:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.17:test'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.17:help'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {org.apache.commons:commons-exec=org.apache.commons:commons-exec:jar:1.2:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:3.0:provided, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:3.0:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:3.0:compile, org.sonatype.sisu:sisu-inject-plexus=org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile, org.codehaus.plexus:plexus-classworlds=org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile, org.sonatype.sisu:sisu-inject-bean=org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile, org.sonatype.sisu:sisu-guice=org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.0:provided, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:3.0:compile, org.apache.maven:maven-compat=org.apache.maven:maven-compat:jar:3.0:compile, org.apache.maven:maven-model-builder=org.apache.maven:maven-model-builder:jar:3.0:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:3.0:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:3.0:compile, org.apache.maven:maven-settings-builder=org.apache.maven:maven-settings-builder:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:3.0:compile, org.apache.maven:maven-aether-provider=org.apache.maven:maven-aether-provider:jar:3.0:runtime, org.sonatype.aether:aether-impl=org.sonatype.aether:aether-impl:jar:1.7:compile, org.sonatype.aether:aether-spi=org.sonatype.aether:aether-spi:jar:1.7:compile, org.sonatype.aether:aether-api=org.sonatype.aether:aether-api:jar:1.7:compile, org.sonatype.aether:aether-util=org.sonatype.aether:aether-util:jar:1.7:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations=org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.apache.maven.wagon:wagon-provider-api=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile, com.squareup.okhttp3:okhttp=com.squareup.okhttp3:okhttp:jar:3.8.1:compile, com.squareup.okio:okio=com.squareup.okio:okio:jar:1.13.0:compile}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: default
+      url: https://nexus.ecom.ahold.nl/content/groups/public
+   layout: default
+snapshots: [enabled => true, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/surefire-reports
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/src/test/java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin
+[DEBUG]   (s) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ perfana-gatling-maven-plugin ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=74, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=70, DefaultDependencyCollector.collectTime=19, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-jar-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]             org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]          commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]          org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.15:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.2:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-jar-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-jar-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.2
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-jar-plugin:2.4:jar from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-jar-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-jar-plugin:2.4:jar' with basic configurator -->
+[DEBUG]   (f) classesDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes
+[DEBUG]   (f) defaultManifestFile = /home/daniel/workspace/perfana-gatling-maven-plugin/target/classes/META-INF/MANIFEST.MF
+[DEBUG]   (f) finalName = perfana-gatling-maven-plugin-0.0.1
+[DEBUG]   (f) forceCreation = false
+[DEBUG]   (f) outputDirectory = /home/daniel/workspace/perfana-gatling-maven-plugin/target
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@344344fa
+[DEBUG]   (f) skipIfEmpty = false
+[DEBUG]   (f) useDefaultManifestFile = false
+[DEBUG] -- end configuration --
+[DEBUG] isUp2date: false (Resource with newer modification date found.)
+[INFO] Building jar: /home/daniel/workspace/perfana-gatling-maven-plugin/target/perfana-gatling-maven-plugin-0.0.1.jar
+[DEBUG] adding directory META-INF/
+[DEBUG] adding entry META-INF/MANIFEST.MF
+[DEBUG] adding directory io/
+[DEBUG] adding directory io/gatling/
+[DEBUG] adding directory io/gatling/mojo/
+[DEBUG] adding directory META-INF/maven/
+[DEBUG] adding directory META-INF/maven/qa.perfana/
+[DEBUG] adding directory META-INF/maven/qa.perfana/perfana-gatling-maven-plugin/
+[DEBUG] adding entry logback.xml
+[DEBUG] adding entry io/gatling/mojo/MojoConstants.class
+[DEBUG] adding entry io/gatling/mojo/PerfanaClient$KeepAliveRunner.class
+[DEBUG] adding entry io/gatling/mojo/GatlingTestMojo.class
+[DEBUG] adding entry io/gatling/mojo/GatlingIntegrationMojo.class
+[DEBUG] adding entry io/gatling/mojo/PerfanaClient$SystemOutLogger.class
+[DEBUG] adding entry io/gatling/mojo/PerfanaClient.class
+[DEBUG] adding entry io/gatling/mojo/MainWithArgsInFile.class
+[DEBUG] adding entry io/gatling/mojo/RecorderMojo.class
+[DEBUG] adding entry io/gatling/mojo/GatlingMojo$1.class
+[DEBUG] adding entry io/gatling/mojo/MojoUtils.class
+[DEBUG] adding entry io/gatling/mojo/HelpMojo.class
+[DEBUG] adding entry io/gatling/mojo/PerfanaClient$Logger.class
+[DEBUG] adding entry io/gatling/mojo/Fork.class
+[DEBUG] adding entry io/gatling/mojo/GatlingSimulationAssertionsFailedException.class
+[DEBUG] adding entry io/gatling/mojo/CompilationException.class
+[DEBUG] adding entry io/gatling/mojo/AbstractGatlingMojo.class
+[DEBUG] adding entry io/gatling/mojo/GatlingMojo.class
+[DEBUG] adding entry META-INF/maven/plugin.xml
+[DEBUG] adding entry META-INF/maven/qa.perfana/perfana-gatling-maven-plugin/plugin-help.xml
+[DEBUG] adding entry META-INF/maven/qa.perfana/perfana-gatling-maven-plugin/pom.xml
+[DEBUG] adding entry META-INF/maven/qa.perfana/perfana-gatling-maven-plugin/pom.properties
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.4:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ perfana-gatling-maven-plugin ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-plugin-plugin:3.4:addPluginArtifactMetadata from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-plugin-plugin:3.4, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-plugin-plugin:3.4:addPluginArtifactMetadata' with basic configurator -->
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ perfana-gatling-maven-plugin ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=40, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=3, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=40, DefaultDependencyCollector.collectTime=18, DefaultDependencyCollector.transformTime=8}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.5.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.5.2:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.5.2:install' with basic configurator -->
+[DEBUG]   (f) artifact = qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) installAtEnd = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = maven-plugin
+[DEBUG]   (f) pomFile = /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml]
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/daniel/workspace/perfana-gatling-maven-plugin/target/perfana-gatling-maven-plugin-0.0.1.jar to /root/.m2/repository/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar
+[DEBUG] Writing tracking file /root/.m2/repository/qa/perfana/perfana-gatling-maven-plugin/0.0.1/_remote.repositories
+[INFO] Installing /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml to /root/.m2/repository/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.pom
+[DEBUG] Writing tracking file /root/.m2/repository/qa/perfana/perfana-gatling-maven-plugin/0.0.1/_remote.repositories
+[DEBUG] Installing qa.perfana:perfana-gatling-maven-plugin/maven-metadata.xml to /root/.m2/repository/qa/perfana/perfana-gatling-maven-plugin/maven-metadata-local.xml
+[DEBUG] Installing qa.perfana/maven-metadata.xml to /root/.m2/repository/qa/perfana/maven-metadata-local.xml
+[INFO] 
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ perfana-gatling-maven-plugin ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=2, ConflictMarker.nodeCount=32, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=32, DefaultDependencyCollector.collectTime=17, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-deploy-plugin:jar:2.7:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7
+[DEBUG]   Included: org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-deploy-plugin:2.7, parent: sun.misc.Launcher$AppClassLoader@1b6d3586]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy' with basic configurator -->
+[DEBUG]   (f) artifact = qa.perfana:perfana-gatling-maven-plugin:maven-plugin:0.0.1
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///root/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) offline = false
+[DEBUG]   (f) packaging = maven-plugin
+[DEBUG]   (f) pomFile = /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) project = MavenProject: qa.perfana:perfana-gatling-maven-plugin:0.0.1 @ /home/daniel/workspace/perfana-gatling-maven-plugin/pom.xml
+[DEBUG]   (f) retryFailedDeploymentCount = 1
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[DEBUG] Using transporter WagonTransporter with priority -1.0 for https://oss.sonatype.org/service/local/staging/deploy/maven2/
+[DEBUG] Using connector BasicRepositoryConnector with priority 0.0 for https://oss.sonatype.org/service/local/staging/deploy/maven2/ via newproxy.ah.nl:8080
+Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar
+2/49 KB   4/49 KB   6/49 KB   8/49 KB   10/49 KB   12/49 KB   14/49 KB   16/49 KB   18/49 KB   20/49 KB   22/49 KB   24/49 KB   26/49 KB   28/49 KB   30/49 KB   32/49 KB   34/49 KB   36/49 KB   38/49 KB   40/49 KB   42/49 KB   44/49 KB   46/49 KB   48/49 KB   49/49 KB              Uploading: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.pom
+2/7 KB     4/7 KB   6/7 KB   7/7 KB            [INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.078 s
+[INFO] Finished at: 2017-11-10T15:11:09+01:00
+[INFO] Final Memory: 29M/463M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project perfana-gatling-maven-plugin: Failed to deploy artifacts: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project perfana-gatling-maven-plugin: Failed to deploy artifacts: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Failed to deploy artifacts: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.apache.maven.plugin.deploy.DeployMojo.execute(DeployMojo.java:193)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	... 20 more
+Caused by: org.apache.maven.artifact.deployer.ArtifactDeploymentException: Failed to deploy artifacts: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:143)
+	at org.apache.maven.plugin.deploy.AbstractDeployMojo.deploy(AbstractDeployMojo.java:167)
+	at org.apache.maven.plugin.deploy.DeployMojo.execute(DeployMojo.java:157)
+	... 22 more
+Caused by: org.eclipse.aether.deployment.DeploymentException: Failed to deploy artifacts: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.eclipse.aether.internal.impl.DefaultDeployer.deploy(DefaultDeployer.java:317)
+	at org.eclipse.aether.internal.impl.DefaultDeployer.deploy(DefaultDeployer.java:245)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.deploy(DefaultRepositorySystem.java:413)
+	at org.apache.maven.artifact.deployer.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:139)
+	... 24 more
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact qa.perfana:perfana-gatling-maven-plugin:jar:0.0.1 from/to sonatype-nexus-staging (https://oss.sonatype.org/service/local/staging/deploy/maven2/): Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:43)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.put(BasicRepositoryConnector.java:274)
+	at org.eclipse.aether.internal.impl.DefaultDeployer.deploy(DefaultDeployer.java:311)
+	... 27 more
+Caused by: org.apache.maven.wagon.TransferFailedException: Failed to transfer file: https://oss.sonatype.org/service/local/staging/deploy/maven2/qa/perfana/perfana-gatling-maven-plugin/0.0.1/perfana-gatling-maven-plugin-0.0.1.jar. Return code is: 401, ReasonPhrase: Unauthorized.
+	at org.apache.maven.wagon.providers.http.AbstractHttpClientWagon.put(AbstractHttpClientWagon.java:627)
+	at org.apache.maven.wagon.providers.http.AbstractHttpClientWagon.put(AbstractHttpClientWagon.java:541)
+	at org.apache.maven.wagon.providers.http.AbstractHttpClientWagon.put(AbstractHttpClientWagon.java:523)
+	at org.apache.maven.wagon.providers.http.AbstractHttpClientWagon.put(AbstractHttpClientWagon.java:517)
+	at org.apache.maven.wagon.providers.http.AbstractHttpClientWagon.put(AbstractHttpClientWagon.java:497)
+	at org.eclipse.aether.transport.wagon.WagonTransporter$PutTaskRunner.run(WagonTransporter.java:644)
+	at org.eclipse.aether.transport.wagon.WagonTransporter.execute(WagonTransporter.java:427)
+	at org.eclipse.aether.transport.wagon.WagonTransporter.put(WagonTransporter.java:410)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$PutTaskRunner.runTask(BasicRepositoryConnector.java:510)
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:350)
+	... 29 more
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
