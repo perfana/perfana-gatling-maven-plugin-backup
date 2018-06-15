@@ -12,7 +12,7 @@
 	<version>0.0.16</version>
 	<name>perfana-gatling-maven-plugin</name>
 	<description>Forked from gatling-maven-plugin, with perfana integration.</description>
-	<packaging>jar</packaging>
+	<packaging>maven-plugin</packaging>
 
 	<inceptionYear>2017</inceptionYear>
 	<url>http://stokpop.nl</url>
