@@ -1,10 +1,14 @@
 package io.gatling.mojo;
 
+import net.minidev.json.JSONArray;
+import net.minidev.json.JSONObject;
 import okhttp3.*;
 import org.apache.maven.plugin.MojoExecutionException;
 
 import java.io.IOException;
 import java.net.URLEncoder;
+import java.util.Enumeration;
+import java.util.Properties;
 
 import static java.lang.Integer.parseInt;
 
@@ -27,8 +31,9 @@ public class PerfanaClient {
     private final String rampupTimeSeconds;
     private final String plannedDurationInSeconds;
     private final String annotations;
+    private final Properties variables;
 
-    public PerfanaClient(String application, String testType, String testEnvironment, String testRunId, String CIBuildResultsUrl, String applicationRelease, String rampupTimeInSeconds, String constantLoadTimeInSeconds, String perfanaUrl, String annotations) {
+    public PerfanaClient(String application, String testType, String testEnvironment, String testRunId, String CIBuildResultsUrl, String applicationRelease, String rampupTimeInSeconds, String constantLoadTimeInSeconds, String perfanaUrl, String annotations, Properties variables) {
         this.application = application;
         this.testType = testType;
         this.testEnvironment = testEnvironment;
@@ -39,6 +44,7 @@ public class PerfanaClient {
         this.plannedDurationInSeconds = String.valueOf(parseInt(rampupTimeInSeconds) + parseInt(constantLoadTimeInSeconds));
         this.perfanaUrl = perfanaUrl;
         this.annotations = annotations;
+        this.variables = variables;
     }
 
     public void injectLogger(Logger logger) {
@@ -46,7 +52,7 @@ public class PerfanaClient {
     }
 
     public void callPerfana(Boolean completed) {
-        String json = perfanaJson(application, testType, testEnvironment, testRunId, CIBuildResultsUrl, applicationRelease, rampupTimeSeconds, plannedDurationInSeconds, annotations, completed);
+        String json = perfanaJson(application, testType, testEnvironment, testRunId, CIBuildResultsUrl, applicationRelease, rampupTimeSeconds, plannedDurationInSeconds, annotations, variables, completed);
         logger.debug(String.join(" ", "Call to endpoint:", perfanaUrl, "with json:", json));
         try {
             String result = post(perfanaUrl + "/test", json);
@@ -68,16 +74,50 @@ public class PerfanaClient {
         }
     }
 
-    private String perfanaJson(String application, String testType, String testEnvironment, String testRunId, String CIBuildResultsUrl, String applicationRelease, String rampupTimeSeconds, String plannedDurationInSeconds, String annotations, Boolean completed) {
+    private String perfanaJson(String application, String testType, String testEnvironment, String testRunId, String CIBuildResultsUrl, String applicationRelease, String rampupTimeSeconds, String plannedDurationInSeconds, String annotations, Properties variables, Boolean completed) {
 
-        if("null".equals(annotations) || annotations == null ){
+        JSONObject perfanaJson = new JSONObject();
 
-            return String.join("","{'testRunId':'", testRunId, "','testType':'", testType, "','testEnvironment':'", testEnvironment, "','application':'", application, "','applicationRelease':'", applicationRelease, "','CIBuildResultsUrl':'", CIBuildResultsUrl, "','rampUp':'", rampupTimeSeconds, "','duration':'", plannedDurationInSeconds, "','completed':", completed.toString(), "}").replace("'", "\"");
+        /* If variables parameter exists add them to the json */
 
-        } else {
+        if(variables != null && !variables.isEmpty()) {
 
-            return String.join("","{'testRunId':'", testRunId, "','testType':'", testType, "','testEnvironment':'", testEnvironment, "','application':'", application, "','applicationRelease':'", applicationRelease, "','CIBuildResultsUrl':'", CIBuildResultsUrl, "','rampUp':'", rampupTimeSeconds, "','duration':'", plannedDurationInSeconds, "','annotations':'", annotations, "','completed':", completed.toString(), "}").replace("'", "\"");
+            JSONArray variablesArrayJson = new JSONArray();
+
+            Enumeration<?> enumeration = variables.propertyNames();
+            while (enumeration.hasMoreElements()) {
+                String name = (String) enumeration.nextElement();
+                String value = (String) variables.get(name);
+                JSONObject variablesJson = new JSONObject();
+                variablesJson.put("placeholder", name);
+                variablesJson.put("value", value);
+                variablesArrayJson.add(variablesJson);
+            }
+
+            perfanaJson.put("variables", variablesArrayJson);
         }
+
+        /* If annotations are passed add them to the json */
+
+        if(!"".equals(annotations) && annotations != null ){
+
+            perfanaJson.put("annotations", annotations);
+
+        }
+
+        perfanaJson.put("testRunId", testRunId);
+        perfanaJson.put("testType", testType);
+        perfanaJson.put("testEnvironment", testEnvironment);
+        perfanaJson.put("application", application);
+        perfanaJson.put("applicationRelease", applicationRelease);
+        perfanaJson.put("CIBuildResultsUrl", CIBuildResultsUrl);
+        perfanaJson.put("rampUp", rampupTimeSeconds);
+        perfanaJson.put("duration", plannedDurationInSeconds);
+        perfanaJson.put("completed", completed);
+
+        return perfanaJson.toJSONString();
+
+
     }
 
     /**

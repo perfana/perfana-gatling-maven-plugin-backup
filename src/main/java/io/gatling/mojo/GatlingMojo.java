@@ -35,10 +35,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -53,8 +50,8 @@ import static java.util.Arrays.asList;
  * Mojo to execute Gatling.
  */
 @Mojo(name = "execute",
-  defaultPhase = LifecyclePhase.INTEGRATION_TEST,
-  requiresDependencyResolution = ResolutionScope.TEST)
+        defaultPhase = LifecyclePhase.INTEGRATION_TEST,
+        requiresDependencyResolution = ResolutionScope.TEST)
 public class GatlingMojo extends AbstractGatlingMojo {
 
   /**
@@ -240,8 +237,8 @@ public class GatlingMojo extends AbstractGatlingMojo {
    */
   @Parameter(property = "gatling.rampupTimeInSeconds", alias = "rt", defaultValue = "")
   private String rampupTimeInSeconds;
-  
- /**
+
+  /**
    * Perfana: Constan load time in seconds.
    */
   @Parameter(property = "gatling.constantLoadTimeInSeconds", alias = "pd", defaultValue = "")
@@ -264,6 +261,13 @@ public class GatlingMojo extends AbstractGatlingMojo {
    */
   @Parameter(property = "gatling.annotations", alias = "ann", defaultValue = "")
   private String annotations;
+
+  /**
+   * Perfana: test run variables passed via environment variable
+   */
+  @Parameter(property = "gatling.variables")
+  private Properties variables;
+
 
   /**
    * Executes Gatling simulations.
@@ -338,7 +342,7 @@ public class GatlingMojo extends AbstractGatlingMojo {
   }
 
   private PerfanaClient createPerfanaClient() {
-    PerfanaClient client = new PerfanaClient(application, testType, testEnvironment, testRunId, CIBuildResultsUrl, applicationRelease, rampupTimeInSeconds, constantLoadTimeInSeconds, perfanaUrl, annotations);
+    PerfanaClient client = new PerfanaClient(application, testType, testEnvironment, testRunId, CIBuildResultsUrl, applicationRelease, rampupTimeInSeconds, constantLoadTimeInSeconds, perfanaUrl, annotations, variables);
     client.injectLogger(new PerfanaClient.Logger() {
       @Override
       public void info(String message) {
@@ -397,7 +401,7 @@ public class GatlingMojo extends AbstractGatlingMojo {
       String assertionText = "One or more Perfana assertions are failing: \n";
       if(requirementsResult != null && requirementsResult == false) assertionText += "Requirements failed: " + requirementsDeeplink + "\n";
       if(benchmarkPreviousTestRunResult != null && benchmarkPreviousTestRunResult == false) assertionText += "Benchmark to previous test run failed: " + benchmarkPreviousTestRunDeeplink + "\n";
-      if(benchmarkBaselineTestRunResult != null && benchmarkBaselineTestRunResult == false) assertionText += "Requirements failed: " + benchmarkBaselineTestRunDeeplink;
+      if(benchmarkBaselineTestRunResult != null && benchmarkBaselineTestRunResult == false) assertionText += "Benchmark to baseline test run failed: " + benchmarkBaselineTestRunDeeplink;
 
       getLog().info("assertionText: " + assertionText);
 
