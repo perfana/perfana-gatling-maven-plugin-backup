@@ -7,26 +7,26 @@
 		<version>9</version>
 	</parent>
 
-	<groupId>qa.perfana</groupId>
+	<groupId>io.perfana</groupId>
 	<artifactId>perfana-gatling-maven-plugin</artifactId>
-	<version>0.0.17</version>
+	<version>1.0.0</version>
 	<name>perfana-gatling-maven-plugin</name>
 	<description>Forked from gatling-maven-plugin, with perfana integration.</description>
 	<packaging>maven-plugin</packaging>
 
-	<inceptionYear>2017</inceptionYear>
-	<url>http://stokpop.nl</url>
+	<inceptionYear>2018</inceptionYear>
+	<url>http://perfana.io</url>
 
 	<developers>
+		<developer>
+			<id>daniel@perfana.io</id>
+			<name>Daniel Moll</name>
+			<organization>Perfana</organization>
+		</developer>
 		<developer>
 			<id>peter.paul.bakker@stokpop.nl</id>
 			<name>Peter Paul Bakker</name>
 			<organization>Stokpop</organization>
-		</developer>
-		<developer>
-			<id>dmoll1974@gmail.com</id>
-			<name>Daniel Moll</name>
-			<organization>Perfana</organization>
 		</developer>
 		<developer>
 			<id>slandelle@gatling.io</id>
@@ -36,11 +36,18 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git:@github.com:perfana/gatling-maven-plugin.git</connection>
-		<developerConnection>scm:git:git:@github.com:perfana/gatling-maven-plugin.git</developerConnection>
-		<url>https://github.com/perfana/gatling-maven-plugin</url>
+		<connection>scm:git:git:@github.com:perfana/perfana-gatling-maven-plugin.git</connection>
+		<developerConnection>scm:git:git:@github.com:perfana/perfana-gatling-maven-plugin.git</developerConnection>
+		<url>https://github.com/perfana/perfana-gatling-maven-plugin</url>
 		<tag>HEAD</tag>
 	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<licenses>
 		<license>
@@ -159,10 +166,11 @@
 					<groupId>org.sonatype.plugins</groupId>
 					<artifactId>nexus-staging-maven-plugin</artifactId>
 					<version>${nexus-staging-maven-plugin.version}</version>
+					<extensions>true</extensions>
 					<configuration>
 						<serverId>sonatype-nexus-staging</serverId>
 						<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-						<autoReleaseAfterClose>true</autoReleaseAfterClose>
+						<autoReleaseAfterClose>false</autoReleaseAfterClose>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -177,6 +185,7 @@
 							<exclude>.gitignore</exclude>
 							<exclude>make_credentials.py</exclude>
 						</excludes>
+
 					</configuration>
 				</plugin>
 			</plugins>
@@ -212,6 +221,57 @@
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
 			</plugin>
+
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>release</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>2.2.1</version>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<goals>
+									<goal>jar-no-fork</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-javadoc-plugin</artifactId>
+						<version>2.9.1</version>
+						<executions>
+							<execution>
+								<id>attach-javadocs</id>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>1.5</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 </project>
